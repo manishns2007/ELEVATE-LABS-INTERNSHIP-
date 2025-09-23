@@ -1,4 +1,5 @@
 By seeing the previous screenshot we can see that the email is blacklisted
 that is it is fake and malicious
 Also in the email the links such as:
-
+https://payfast.example.com/verify?id=ABCD1234 (suspicious link)
+https://tiny.example/verify-link(suspicious link)
