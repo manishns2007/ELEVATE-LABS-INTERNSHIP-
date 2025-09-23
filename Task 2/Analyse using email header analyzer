@@ -3,3 +3,13 @@ that is it is fake and malicious
 Also in the email the links such as:
 https://payfast.example.com/verify?id=ABCD1234 (suspicious link)
 https://tiny.example/verify-link(suspicious link)
+Check for urgent or immediate do tasks or keywords:
+Subject: Urgent: Verify your PayFast Account NOW(in the given mail)
+MISMATCHED URLS:
+Observed URL mismatch:
+- Visible URL text in email: https://payfast.example.com/verify?id=ABCD1234
+- Actual clickable URL (anchor href): https://tiny.example/verify-link
+- Risk: HIGH — the anchor target does not match the claimed brand domain and is obfuscated via a short/third-party domain.
+This is a common phishing indicator. Do not click; report and investigate.
+Spelling or grammatic errors:
+If you did not attempt to access your account, please ignore this message. (What attempt is not specified)
