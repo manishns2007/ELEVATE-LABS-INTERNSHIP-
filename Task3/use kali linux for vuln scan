@@ -1,1 +1,12 @@
+Prepare your results locally
 
+Save your Lynis output:
+
+sudo lynis audit system | tee lynis-report.txt
+
+
+Now you have lynis-report.txt in your home directory.
+
+(Optional) Also save your Nmap results:
+
+sudo nmap -sV --script vuln 192.168.11.137 | tee nmap-scan.txt
