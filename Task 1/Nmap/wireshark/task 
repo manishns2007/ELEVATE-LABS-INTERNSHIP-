@@ -1,7 +1,0 @@
-At the first step install wireshark
-sudo apt install wireshark
-once the wireshark is installed use the command wireshark &
-then it automatically starts capturing packets
-nmap -Pn -p- TARGET   Use this command to find the open ports of the target system
-nmap --script vuln TARGET // use this command to find the vulnerability in our network
-
