@@ -1,6 +1,0 @@
-git clone https://github.com/yourusername/yourrepo.git
-cd yourrepo/Task\ 4
-cp /path/to/Firewall\ 1.png .
-git add "Task 4/Firewall 1.png"
-git commit -m "Add firewall screenshot"
-git push origin main
