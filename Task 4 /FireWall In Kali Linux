@@ -1,0 +1,35 @@
+Steps for Kali Linux
+
+Install UFW (for installation):
+We have to enter into root user for installation purposes
+(use sudo root)
+
+sudo apt update
+sudo apt install ufw -y
+
+
+Enable UFW:
+(use this command)
+sudo ufw enable
+
+
+Allow SSH :
+(use this command)
+sudo ufw allow ssh
+
+
+Add example rules:
+
+Allow HTTP (80):
+
+sudo ufw allow 80/tcp
+
+
+Block FTP (21):
+
+sudo ufw deny 21/tcp
+
+
+Check rules:
+
+sudo ufw status numbered
