@@ -1,0 +1,6 @@
+In your system if u do not have wireshark 
+step 1 : enter your root user
+su sudo apt install wireshark -y (use this command for installation)
+if you already have installed( use wireshark & to activate the network capture)
+and select the network range (As per your choice)
+here i have done using eth0
