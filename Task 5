@@ -1,5 +1,0 @@
-Task 5 :
-Demonstrating the use of wireshark 
-Start to capture the network interface (here used eth0)
-Filter the packets by TCP , DNS And Http
-Summary
